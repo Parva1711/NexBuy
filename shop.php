@@ -29,7 +29,15 @@ $products = [
   ['name' => 'Smart Plug', 'price' => 899.00, 'image' => 'images/plug.jpeg', 'features' => ['Wi-Fi Enabled', 'Voice Control', 'Timer Function']],
   ['name' => 'VR Headset', 'price' => 29999.00, 'image' => 'images/vr.jpeg', 'features' => ['Immersive 3D', 'Built-in Audio', 'Wide Compatibility']],
   ['name' => 'Noise Cancelling Mic', 'price' => 2499.00, 'image' => 'images/mic.jpeg', 'features' => ['USB Connection', 'Clear Audio', 'Adjustable Arm']],
-  ['name' => 'Portable Power Bank', 'price' => 1499.00, 'image' => 'images/powerbank.webp', 'features' => ['10000mAh Capacity', 'Dual USB Output', 'Fast Charging']]
+  ['name' => 'Portable Power Bank', 'price' => 1499.00, 'image' => 'images/powerbank.webp', 'features' => ['10000mAh Capacity', 'Dual USB Output', 'Fast Charging']],
+  ['name' => 'Gaming Chair', 'price' => 8999.00, 'image' => 'images/chair.webp', 'features' => ['Ergonomic Design', 'Adjustable Armrest', 'Lumbar Support']],
+  ['name' => 'Wi-Fi Router', 'price' => 2499.00, 'image' => 'images/wifi.webp', 'features' => ['Dual Band', 'High Speed', 'WPA3 Security']],
+  ['name' => 'Streaming Stick', 'price' => 3999.00, 'image' => 'images/stick.jpeg', 'features' => ['4K Support', 'Voice Remote', 'Wi-Fi Connectivity']],
+  ['name' => 'Graphics Tablet', 'price' => 6599.00, 'image' => 'images/tablet.jpeg', 'features' => ['Pressure Sensitivity', 'Compact Size', 'Stylus Included']],
+  ['name' => 'Wireless Charger', 'price' => 1599.00, 'image' => 'images/charger.jpeg', 'features' => ['15W Fast Charging', 'MagSafe Compatible', 'LED Indicator']],
+  ['name' => 'Smart Light Bulb', 'price' => 799.00, 'image' => 'images/bulb.jpeg', 'features' => ['Voice Control', 'Color Changing', 'Energy Efficient']],
+  ['name' => 'Laptop Backpack', 'price' => 1999.00, 'image' => 'images/bag.jpeg', 'features' => ['Water Resistant', '15.6-inch Compatible', 'USB Charging Port']],
+  ['name' => 'Digital Alarm Clock', 'price' => 1099.00, 'image' => 'images/clock.jpeg', 'features' => ['LED Display', 'Snooze Function', 'Battery Backup']]
 ];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax_add'])) {
