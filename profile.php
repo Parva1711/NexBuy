@@ -116,7 +116,7 @@ $email = $_SESSION['email'];
     <img src="images/profile.png" alt="Profile Picture" />
     <h2><?php echo htmlspecialchars($username); ?></h2>
     <p><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></p>
-    <a href="logout.php" class="logout-btn">Logout</a>
+    <a href="logout.php" class="logout-btn">Log out</a>
 </div>
 
 <footer>
